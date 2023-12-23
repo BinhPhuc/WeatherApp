@@ -109,13 +109,26 @@ html {
     color: #1c284e;
 }
 
+.name {
+    color: #1c284e;
+    font-weight: 500;
+    margin-top: 12px;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 55px;
+    scale: 0;
+    opacity: 0;
+    display: none;
+    transition: 0.6 ease-out;
+}
+
 .weather-info {
-    /* margin-top: 15px; */
+    margin-top: 5px;
     text-align: center;
     scale: 0;
     opacity: 0;
     display: none;
-    transition: .6 ease-out;
+    transition: 0.6 ease-out;
 }
 
 .weather-info p {
