@@ -110,11 +110,12 @@ html {
 }
 
 .weather-info {
-    margin-top: 15px;
+    /* margin-top: 15px; */
     text-align: center;
     scale: 0;
     opacity: 0;
     display: none;
+    transition: .6 ease-out;
 }
 
 .weather-info p {
@@ -149,7 +150,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 10px;
     scale: 0;
     opacity: 0;
     display: none;
