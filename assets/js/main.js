@@ -31,7 +31,7 @@ search_btn.addEventListener('click', (e) => {
             if(data.cod === '404') {
                 not_found.style.display = 'block';
                 not_found.classList.add('fade-in');
-                container.style.height = '355px'
+                container.style.height = '380px'
                 weather_details.style.display = 'none';
                 return;
             }
